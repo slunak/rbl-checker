@@ -13,8 +13,8 @@ Tool allows you to check your MTAs IP addresses against known blacklists.
 #####Configuration vars
 
 - `$path_to_sendmail` - your email program, e.g. '/usr/sbin/sendmail'
-- `$email_to - email` address where tool will send results
-- `$email_from - email` from which tool will send results
+- `$email_to` - email address that tool will send results to
+- `$email_from` - email address that tool will send results from
 - `$email_subject` - subject of such an email, e.g. 'RBL'
 
 #####list-of-ips-to-check.txt
@@ -23,7 +23,7 @@ File contains a list of MTAs IP addresses that will be checked accross known bla
 
 #####blacklist.txt
 
-File contains list of known blacklists which will be checked for MTAs IP addresses.
+File contains list of known blacklists.
 
 ##Usage
 
@@ -31,9 +31,9 @@ File contains list of known blacklists which will be checked for MTAs IP address
 
 Arguments:
 
-- `list-of-ips-to-check.txt`: path to file with list of IP addresses to check againts RBLs
-- `blacklist.txt`: path to file with list of known RBLs
-- `action`: can be `display` or `email` (for email please modify configuration vars in the script)
+- `list-of-ips-to-check.txt` - path to file with list of IP addresses to check againts RBLs
+- `blacklist.txt` - path to file with list of known RBLs
+- `action` - can be `display` or `email` (for email please modify configuration vars in the script)
 
 Example:
 
@@ -45,7 +45,7 @@ Add this tool to your crontab schedule and get results by email.
 
 ##Bugs
 
-Please submit an issue if found a bug
+Please submit a new issue if found a bug.
 
 ##Known Blacklists
 
