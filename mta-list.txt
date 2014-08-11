@@ -1,0 +1,5 @@
+#Google ASPMX.L.GOOGLE.COM
+173.194.66.26
+#Google ALT1.ASPMX.L.GOOGLE.COM
+74.125.143.26
+#insert your MTAs here

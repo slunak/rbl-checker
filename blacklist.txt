@@ -1,0 +1,13 @@
+CASA CBL;cbl.anti-spam.org.cn;http://anti-spam.org.cn/
+CASA CBL+;cblplus.anti-spam.org.cn;http://anti-spam.org.cn/
+CASA CDL;cdl.anti-spam.org.cn;http://anti-spam.org.cn/
+CASA CBL-;cblless.anti-spam.org.cn;http://anti-spam.org.cn/
+SORBS-SPAM;spam.dnsbl.sorbs.net;http://www.sorbs.net
+SORBS-DUL;dul.dnsbl.sorbs.net;http://www.sorbs.net
+LASHBACK;ubl.unsubscore.com;http://www.lashback.com/blacklist/
+SPAMCANNIBAL;bl.spamcannibal.org;http://www.spamcannibal.org/cannibal.cgi
+MANITU;ix.dnsbl.manitu.net;http://www.dnsbl.manitu.net/
+UCEPROTECT L1;dnsbl-1.uceprotect.net;http://www.uceprotect.net/en/
+UCEPROTECT L2;dnsbl-2.uceprotect.net;http://www.uceprotect.net/en/
+UCEPROTECT L3;dnsbl-3.uceprotect.net;http://www.uceprotect.net/en/
+BACKSCATTERER;ips.backscatterer.org;http://www.backscatterer.org/?target=test
