@@ -4,6 +4,9 @@
     # Author: Serhiy Lunak
     # Version 1.0.0
     # 
+    # License: GNU GENERAL PUBLIC LICENSE Version 2
+    # see LICENSE file for more details.
+    #
     # Description: This script checks given IP addresses
     # agains given RBLs.
     #------------------------------------------------------
