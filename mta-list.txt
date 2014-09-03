@@ -1,5 +1,14 @@
 #Google ASPMX.L.GOOGLE.COM
-173.194.66.26
+#173.194.66.26
 #Google ALT1.ASPMX.L.GOOGLE.COM
-74.125.143.26
+#74.125.143.26
 #insert your MTAs here
+#mr10.infostorm.no
+217.18.206.43
+217.18.206.33
+#mr11.infostorm.no
+217.18.206.44
+217.18.206.34
+#mr13.infostorm.no
+217.18.206.40
+217.18.206.32

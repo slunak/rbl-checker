@@ -22,10 +22,10 @@
     sub send_mail($);
     
     # Configuration vars
-    my $path_to_sendmail = '/usr/sbin/sendmail';
-    my $email_to='insert@email.here';
-    my $email_from= 'insert@email.here';
-    my $email_subject='RBL';
+    my $path_to_sendmail = '/usr/sbin/sendmail -f jan.nygard@evry.com';
+    my $email_to='cloudhsp@hostingtjenester.no';
+    my $email_from= 'jan.nygard@evry.com';
+    my $email_subject='RBL - Status';
     
     
     
