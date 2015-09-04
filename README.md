@@ -7,6 +7,7 @@ Tool allows you to check your MTAs IP addresses against known blacklists.
 
 - display the result
 - send result to email
+- sendt result to Slack (www.slack.com)
 
 ##Settings
 
@@ -16,6 +17,9 @@ Tool allows you to check your MTAs IP addresses against known blacklists.
 - `$email_to` - email address that tool will send results to
 - `$email_from` - email address that tool will send results from
 - `$email_subject` - subject of such an email, e.g. 'RBL'
+- `$slack_url` - Slack URL to webhook
+- `$slack_channel` - Slack channel to message
+- `$slack_username` - Slack username to send messages from
 
 #####list-of-ips-to-check.txt
 
@@ -33,7 +37,7 @@ Arguments:
 
 - `list-of-ips-to-check.txt` - path to file with list of IP addresses to check againts RBLs
 - `blacklist.txt` - path to file with list of known RBLs
-- `action` - can be `display` or `email` (for email please modify configuration vars in the script)
+- `action` - can be `display`, `email` or `slack` (for email and slack please modify configuration vars in the script)
 
 Example:
 
