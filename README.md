@@ -45,7 +45,7 @@ Example:
 
 ##Cron
 
-Add this tool to your crontab schedule and get results by email.
+Add this tool to your crontab schedule and get results by email or send to Slack.
 
 ##Bugs
 
@@ -55,4 +55,4 @@ Please submit a new issue if found a bug.
 
 To add a blacklist, please modify file `blacklist.txt`.
 
-To request a new blacklist to be added here, please submit an issue.
+To request a new blacklist to be added here, please submit an issue or create a pull request.
