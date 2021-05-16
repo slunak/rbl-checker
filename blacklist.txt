@@ -7,8 +7,4 @@ SORBS-DUL;dul.dnsbl.sorbs.net;http://www.sorbs.net
 LASHBACK;ubl.unsubscore.com;http://www.lashback.com/blacklist/
 SPAMCANNIBAL;bl.spamcannibal.org;http://www.spamcannibal.org/cannibal.cgi
 MANITU;ix.dnsbl.manitu.net;http://www.dnsbl.manitu.net/
-UCEPROTECT L1;dnsbl-1.uceprotect.net;http://www.uceprotect.net/en/
-UCEPROTECT L2;dnsbl-2.uceprotect.net;http://www.uceprotect.net/en/
-UCEPROTECT L3;dnsbl-3.uceprotect.net;http://www.uceprotect.net/en/
-BACKSCATTERER;ips.backscatterer.org;http://www.backscatterer.org/?target=test
 SPAMCOP SCBL;bl.spamcop.net;http://www.spamcop.net/bl.shtml
