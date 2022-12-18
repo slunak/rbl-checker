@@ -9,9 +9,9 @@ Tool allows you to check your MTAs IP addresses against known blacklists.
 - send result to email
 - sendt result to Slack (www.slack.com)
 
-##Settings
+## Settings
 
-#####Configuration vars
+##### Configuration vars
 
 - `$path_to_sendmail` - your email program, e.g. '/usr/sbin/sendmail'
 - `$email_to` - email address that tool will send results to
@@ -21,15 +21,15 @@ Tool allows you to check your MTAs IP addresses against known blacklists.
 - `$slack_channel` - Slack channel to message
 - `$slack_username` - Slack username to send messages from
 
-#####list-of-ips-to-check.txt
+##### list-of-ips-to-check.txt
 
 File contains a list of MTAs IP addresses that will be checked accross known blacklists. Please modify this file before usage.
 
-#####blacklist.txt
+##### blacklist.txt
 
 File contains list of known blacklists.
 
-##Usage
+## Usage
 
 `~> perl rbl-checker.pl [list-of-ips-to-check.txt] [blacklist.txt] [action]`
 
@@ -43,16 +43,16 @@ Example:
 
 `~> perl rbl-checker.pl list-of-ips-to-check.txt blacklist.txt display`
 
-##Cron
+## Cron
 
 Add this tool to your crontab schedule and get results by email or send to Slack.
 
-##Bugs
+## Bugs
 
 Please submit a new issue if found a bug.
 
-##Known Blacklists
+## Known Blacklists
 
 To add a blacklist, please modify file `blacklist.txt`.
 
-To request a new blacklist to be added here, please submit an issue or create a pull request.
+To request a new blacklist to be added here, please create a pull request.
